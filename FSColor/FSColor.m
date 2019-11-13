@@ -29,4 +29,12 @@
     return color;
 }
 
++ (UIColor *)BlueColor_like_WeChatFriends{
+    return [UIColor colorWithRed:0x58/255.0 green:0x6c/255.0 blue:0x93/255.0 alpha:1];
+}
+
++ (UIColor *)BlueColor_like_WeChatFriendsAlpha{
+    return [UIColor colorWithRed:0x58/255.0 green:0x6c/255.0 blue:0x93/255.0 alpha:.1];
+}
+
 @end
