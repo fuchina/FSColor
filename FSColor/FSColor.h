@@ -21,6 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIColor *)BlueColor_like_Alipay;
 + (UIColor *)BlueColor_like_WeChatFriends;
 + (UIColor *)BlueColor_like_WeChatFriendsAlpha;
++ (UIColor *)BlueColor_like_IOSSystem;
 
 @end
 

@@ -37,4 +37,8 @@
     return [UIColor colorWithRed:0x58/255.0 green:0x6c/255.0 blue:0x93/255.0 alpha:.1];
 }
 
++ (UIColor *)BlueColor_like_IOSSystem {
+    return [UIColor colorWithRed:0 green:0x7A/255.0 blue:0xFF/255.0 alpha:1];
+}
+
 @end
