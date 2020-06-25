@@ -41,4 +41,8 @@
     return [UIColor colorWithRed:0 green:0x7A/255.0 blue:0xFF/255.0 alpha:1];
 }
 
++ (UIColor *)LightBlueColor_like_AppStoreButtonBackgroundcolor {
+    return [UIColor colorWithRed:0xf0/255.0 green:0xf0/255.0 blue:0xf7/255.0 alpha:1];;
+}
+
 @end

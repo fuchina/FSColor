@@ -23,6 +23,11 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIColor *)BlueColor_like_WeChatFriendsAlpha;
 + (UIColor *)BlueColor_like_IOSSystem;
 
+/*
+ * App Store里按钮的背景颜色~淡蓝色
+ */
++ (UIColor *)LightBlueColor_like_AppStoreButtonBackgroundcolor;
+
 @end
 
 NS_ASSUME_NONNULL_END
