@@ -73,4 +73,47 @@
     return color;
 }
 
++ (UIColor *)Red_color {
+    static UIColor *color = nil;
+    if (!color) {
+        color = [UIColor colorWithRed: 250 / 255.0 green: 49 / 255.0 blue: 105 / 255.0 alpha: 1];
+    }
+    return color;
+}
+
++ (UIColor *)Yellow_color {
+    static UIColor *color = nil;
+    if (!color) {
+        color = [UIColor colorWithRed: 253 / 255.0 green: 111 / 255.0 blue: 55 / 255.0 alpha: 1];
+    }
+    return color;
+}
+
++ (UIColor *)TextColor_Dark {
+    static UIColor *color = nil;
+    if (!color) {
+        CGFloat rgb = 16.0 / 255;
+        color = [UIColor colorWithRed: rgb green: rgb blue: rgb alpha: 1];
+    }
+    return color;
+}
+
++ (UIColor *)TextColor_Normal {
+    static UIColor *color = nil;
+    if (!color) {
+        CGFloat rgb = 88.0 / 255;
+        color = [UIColor colorWithRed: rgb green: rgb blue: rgb alpha: 1];
+    }
+    return color;
+}
+
++ (UIColor *)TextColor_Light {
+    static UIColor *color = nil;
+    if (!color) {
+        CGFloat rgb = 169.0 / 255;
+        color = [UIColor colorWithRed: rgb green: rgb blue: rgb alpha: 1];
+    }
+    return color;
+}
+
 @end

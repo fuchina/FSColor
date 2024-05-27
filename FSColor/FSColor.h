@@ -28,6 +28,16 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (UIColor *)LightBlueColor_like_AppStoreButtonBackgroundcolor;
 
+/**
+ *  红色
+ */
++ (UIColor *)Red_color;
++ (UIColor *)Yellow_color;
+
++ (UIColor *)TextColor_Dark;
++ (UIColor *)TextColor_Normal;
++ (UIColor *)TextColor_Light;
+
 @end
 
 NS_ASSUME_NONNULL_END
