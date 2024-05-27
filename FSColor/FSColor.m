@@ -10,39 +10,67 @@
 @implementation FSColor
 
 + (UIColor *)GreenColor_like_Wechat {
-    UIColor *color = [UIColor colorWithRed:0x20/255.0 green:0xbf/255.0 blue:0x66/255.0 alpha:1];
+    static UIColor *color = nil;
+    if (!color) {
+        color = [UIColor colorWithRed: 0x20 / 255.0 green: 0xbf / 255.0 blue: 0x66 / 255.0 alpha: 1];
+    }
     return color;
 }
 
 + (UIColor *)YellowColor_like_Meituan {
-    UIColor *color = [UIColor colorWithRed:1 green:195/255.0 blue:0 alpha:1];
+    static UIColor *color = nil;
+    if (!color) {
+        color = [UIColor colorWithRed: 1 green: 195 / 255.0 blue: 0 alpha: 1];
+    }
     return color;
 }
 
 + (UIColor *)RedColor_like_AppleNews {
-    UIColor *color = [UIColor colorWithRed:250 / 255.0 green:80/255.0 blue:100 /255.0 alpha:1];
+    static UIColor *color = nil;
+    if (!color) {
+        color = [UIColor colorWithRed: 250 / 255.0 green: 80 / 255.0 blue: 100 / 255.0 alpha: 1];
+    }
     return color;
 }
 
 + (UIColor *)BlueColor_like_Alipay {
-    UIColor *color = [UIColor colorWithRed:18 / 255.0 green:152/255.0 blue:233 /255.0 alpha:1];
+    static UIColor *color = nil;
+    if (!color) {
+        color = [UIColor colorWithRed: 18 / 255.0 green: 152 / 255.0 blue: 233 / 255.0 alpha: 1];
+    }
     return color;
 }
 
 + (UIColor *)BlueColor_like_WeChatFriends {
-    return [UIColor colorWithRed:0x58/255.0 green:0x6c/255.0 blue:0x93/255.0 alpha:1];
+    static UIColor *color = nil;
+    if (!color) {
+        color = [UIColor colorWithRed: 0x58 / 255.0 green: 0x6c / 255.0 blue: 0x93 / 255.0 alpha: 1];
+    }
+    return color;
 }
 
 + (UIColor *)BlueColor_like_WeChatFriendsAlpha {
-    return [UIColor colorWithRed:0x58/255.0 green:0x6c/255.0 blue:0x93/255.0 alpha:.1];
+    static UIColor *color = nil;
+    if (!color) {
+        color = [UIColor colorWithRed: 0x58 / 255.0 green: 0x6c / 255.0 blue: 0x93 / 255.0 alpha: .1];
+    }
+    return color;
 }
 
 + (UIColor *)BlueColor_like_IOSSystem {
-    return [UIColor colorWithRed:0 green:0x7A/255.0 blue:0xFF/255.0 alpha:1];
+    static UIColor *color = nil;
+    if (!color) {
+        color = [UIColor colorWithRed: 0 green: 0x7A / 255.0 blue: 0xFF / 255.0 alpha: 1];
+    }
+    return color;
 }
 
 + (UIColor *)LightBlueColor_like_AppStoreButtonBackgroundcolor {
-    return [UIColor colorWithRed:0xf0/255.0 green:0xf0/255.0 blue:0xf7/255.0 alpha:1];;
+    static UIColor *color = nil;
+    if (!color) {
+        color = [UIColor colorWithRed: 0xf0 / 255.0 green: 0xf0 / 255.0 blue: 0xf7 / 255.0 alpha: 1];
+    }
+    return color;
 }
 
 @end
